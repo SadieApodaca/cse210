@@ -1,0 +1,15 @@
+C:\Users\lizzi\Documents\cse210\sandbox\bin\Debug\net10.0\sandbox.exe
+C:\Users\lizzi\Documents\cse210\sandbox\bin\Debug\net10.0\sandbox.deps.json
+C:\Users\lizzi\Documents\cse210\sandbox\bin\Debug\net10.0\sandbox.runtimeconfig.json
+C:\Users\lizzi\Documents\cse210\sandbox\bin\Debug\net10.0\sandbox.dll
+C:\Users\lizzi\Documents\cse210\sandbox\bin\Debug\net10.0\sandbox.pdb
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.AssemblyInfoInputs.cache
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.AssemblyInfo.cs
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.csproj.CoreCompileInputs.cache
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.sourcelink.json
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.dll
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\refint\sandbox.dll
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.pdb
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\sandbox.genruntimeconfig.cache
+C:\Users\lizzi\Documents\cse210\sandbox\obj\Debug\net10.0\ref\sandbox.dll
