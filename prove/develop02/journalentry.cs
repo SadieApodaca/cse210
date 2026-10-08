@@ -19,7 +19,7 @@ class JournalEntry
             
         };
         _date = DateTime.Now.ToString();
-        _prompt = "How was your day?";
+        _prompt = prompts[0];
         Console.Write($"{_prompt}: ");
         _response = Console.ReadLine();
     }

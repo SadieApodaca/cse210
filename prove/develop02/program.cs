@@ -6,7 +6,7 @@ class Program
     {
         Menu myMenu = new Menu();
 
-        JournalEntry myEntry = new JournalEntry();
+        Journal myJournal = new JournalEntry();
 
         int response = 0;
 
@@ -17,7 +17,7 @@ class Program
             {
                 case 1: 
                     // Call CreateJournalEntry()
-                    myEntry.CreateJournalEntry();
+                    myJournal.CreateJournalEntry();
                     break;
                 case 2: 
                     // Call DisplayJournal()
