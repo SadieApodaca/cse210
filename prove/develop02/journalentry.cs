@@ -1,3 +1,6 @@
+using System;
+
+
 class JournalEntry
 {
     public string _date;

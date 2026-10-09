@@ -1,12 +1,15 @@
+using System;
+using System.IO;
 
-
-class Program
+ class Program
 {
     static void Main(string[] args)
     {
         Menu myMenu = new Menu();
 
-        Journal myJournal = new JournalEntry();
+        Journal myJournal = new Journal();
+
+        JournalEntry myEntry = new JournalEntry();
 
         int response = 0;
 

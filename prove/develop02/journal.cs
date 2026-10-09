@@ -1,11 +1,11 @@
-
+using System;
 class Journal
 {
-    public List<JournalEntry> _entries = newList<JournalEntry>();
+    public List<JournalEntry> _entries = new List<JournalEntry>();
 
     public void DisplayJournal()
     {
-        foreach(JournalEntry entry in _entires)
+        foreach(JournalEntry entry in _entries)
         {
             entry.DisplayJournalEntry();
         }
