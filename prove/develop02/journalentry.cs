@@ -1,30 +1,22 @@
 using System;
 
-
-class JournalEntry
+public class JournalEntry
 {
-    public string _date;
+    public string _dateTime = "";
+    public string _journalPrompt = "";
+    public string _journalEntry = "";
+    public string _journalFile = "";
 
-    public string _prompt;
 
-    public string _response;
-
-    public void DisplayJournalEntry()
+    public JournalEntry()
     {
-        Console.WriteLine($"{_date}, {_prompt}");
-        Console.WriteLine($"{_response}");
     }
 
-    public void CreateJournalEntry()
+    public void Display()
     {
-        string [] prompts =
-        {
-            
-        };
-        _date = DateTime.Now.ToString();
-        _prompt = prompts[0];
-        Console.Write($"{_prompt}: ");
-        _response = Console.ReadLine();
+        Console.WriteLine($"Date: {_dateTime}");
+        Console.WriteLine($"Prompt: {_journalPrompt}");
+        Console.WriteLine($"Response: {_journalEntry} \n");
     }
+
 }
-
