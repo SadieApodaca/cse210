@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lizzi\\Documents\\cse210\\prove\\Develop02\\Develop02.csproj": {}
+    "C:\\Users\\lizzi\\Documents\\cse210\\prove\\develop02\\Develop02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lizzi\\Documents\\cse210\\prove\\Develop02\\Develop02.csproj": {
+    "C:\\Users\\lizzi\\Documents\\cse210\\prove\\develop02\\Develop02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lizzi\\Documents\\cse210\\prove\\Develop02\\Develop02.csproj",
+        "projectUniqueName": "C:\\Users\\lizzi\\Documents\\cse210\\prove\\develop02\\Develop02.csproj",
         "projectName": "Develop02",
-        "projectPath": "C:\\Users\\lizzi\\Documents\\cse210\\prove\\Develop02\\Develop02.csproj",
+        "projectPath": "C:\\Users\\lizzi\\Documents\\cse210\\prove\\develop02\\Develop02.csproj",
         "packagesPath": "C:\\Users\\lizzi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lizzi\\Documents\\cse210\\prove\\Develop02\\obj\\",
+        "outputPath": "C:\\Users\\lizzi\\Documents\\cse210\\prove\\develop02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lizzi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

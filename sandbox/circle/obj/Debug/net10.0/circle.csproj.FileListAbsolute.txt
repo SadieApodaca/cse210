@@ -1,0 +1,15 @@
+C:\Users\lizzi\Documents\cse210\sandbox\circle\bin\Debug\net10.0\circle.exe
+C:\Users\lizzi\Documents\cse210\sandbox\circle\bin\Debug\net10.0\circle.deps.json
+C:\Users\lizzi\Documents\cse210\sandbox\circle\bin\Debug\net10.0\circle.runtimeconfig.json
+C:\Users\lizzi\Documents\cse210\sandbox\circle\bin\Debug\net10.0\circle.dll
+C:\Users\lizzi\Documents\cse210\sandbox\circle\bin\Debug\net10.0\circle.pdb
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.AssemblyInfoInputs.cache
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.AssemblyInfo.cs
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.csproj.CoreCompileInputs.cache
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.sourcelink.json
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.dll
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\refint\circle.dll
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.pdb
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\circle.genruntimeconfig.cache
+C:\Users\lizzi\Documents\cse210\sandbox\circle\obj\Debug\net10.0\ref\circle.dll
