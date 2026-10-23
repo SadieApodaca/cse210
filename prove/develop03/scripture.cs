@@ -1,36 +1,55 @@
-class Scripture
+// Scripture.cs
+using System;
+using System.Collections.Generic;
+
+public class Scripture
 {
     private List<Word> _words;
-    //ToDO - Add Scripture Reference
+    public Reference Reference { get; }
 
-    public Scripture(string bookName, int chapter, int verse, string text)
+    private int currentWordIndex = 0;
+
+    public Scripture(Reference reference, string text)
     {
-        _words = ConvertToWordList(text);
-    }
-    public Scripture(string bookName, int chapter, int startVerse, int endVerse, string text)
-    {
-        _words = ConvertToWordList(text);
-    }
-    //Sccripture reference
-    public void ShowScripture()
-    {
-        foreach(Word word in _words)
+        Reference = reference;
+        _words = new List<Word>();
+
+        string[] wordArray = text.Split(' ');
+        foreach (var word in wordArray)
         {
-            word.Display();
+            _words.Add(new Word(word));
         }
     }
 
-    private List<Word> ConvertToWordList(string text)
+    public void HideRandom()
     {
-        List<Word> tempWordList = new List<Word>();
-        string[] tempWords = text.Split(' ');
-        foreach(string w in tempWords)
+        if (currentWordIndex < _words.Count)
         {
-            Word tempWord = new Word(w);
-            tempWordList.Add(tempWord);
+            List<int> hiddenIndexes = _words
+                .Select((word, index) => new { Word = word, Index = index })
+                .Where(item => !item.Word.IsHidden)
+                .Select(item => item.Index)
+                .ToList();
+
+            if (hiddenIndexes.Count > 0)
+            {
+                Random random = new Random();
+                int randomIndex = random.Next(0, hiddenIndexes.Count);
+                _words[hiddenIndexes[randomIndex]].Hide();
+                currentWordIndex++;
+            }
         }
-        
-        return tempWordList;
     }
 
+    public bool IsCompletelyHidden()
+    {
+        return currentWordIndex >= _words.Count;
+    }
+
+    public string RenderScripture()
+    {
+        List<string> visibleWords = _words.ConvertAll(word => word.ToString());
+        string renderedText = string.Join(" ", visibleWords);
+        return $"{Reference.GetFormattedReference()}| {renderedText}";
+    }
 }
